@@ -23,7 +23,7 @@ C_DEPS += \
 FAT/%.o: ../FAT/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: GNU ARM Cross C Compiler'
-	arm-none-eabi-gcc -mcpu=cortex-m1 -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\GMD\workspace\cm1_zx48_ctrl\CORE" -I"C:\GMD\workspace\cm1_zx48_ctrl\PERIPHERAL\inc" -I"C:\GMD\workspace\cm1_zx48_ctrl\SYSTEM" -I"C:\GMD\workspace\cm1_zx48_ctrl\USER" -std=gnu11 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -std=gnu11 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
