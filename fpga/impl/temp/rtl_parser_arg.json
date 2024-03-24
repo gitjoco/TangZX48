@@ -1,0 +1,161 @@
+{
+ "Files" : [
+  {
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/audio_clock_regeneration_packet.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/audio_info_frame.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/audio_sample_packet.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/auxiliary_video_information_info_frame.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hdmi.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/packet_assembler.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/packet_picker.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/serializer.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/source_product_description_info_frame.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/tmds_channel.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/userflash_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80_ALU.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80_MCode.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80_Pack.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80_Reg.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80a.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/gowin_clkdiv/gowin_clkdiv.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/gowin_empu_m1/gowin_empu_m1.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/gowin_rpll/gowin_rpll.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/gowin_rpll/gowin_rpll135.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hdmi_ula.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hramctrl8bit.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hyperram.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hyperram_config.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hyperram_ctrl.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hyperram_io.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/ps2reader.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/rom16k.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/spectrum48top.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/toplevel.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/zxps2kbd.vhd",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/impl/temp/rtl_parser.result",
+ "Top" : "toplevel",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,302 @@
+[
+ {
+  "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/toplevel.vhd",
+  "InstLine" : 46,
+  "InstName" : "toplevel",
+  "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/toplevel.vhd",
+  "ModuleLine" : 46,
+  "ModuleName" : "toplevel",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/toplevel.vhd",
+    "InstLine" : 463,
+    "InstName" : "ucflash",
+    "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/userflash_controller.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "GW_FLASH"
+   },
+   {
+    "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/toplevel.vhd",
+    "InstLine" : 323,
+    "InstName" : "cgen135",
+    "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/gowin_rpll/gowin_rpll135.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "Gowin_rPLL135"
+   },
+   {
+    "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/toplevel.vhd",
+    "InstLine" : 332,
+    "InstName" : "clkgen",
+    "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/gowin_rpll/gowin_rpll.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/toplevel.vhd",
+    "InstLine" : 342,
+    "InstName" : "clkgen28",
+    "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/gowin_clkdiv/gowin_clkdiv.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/toplevel.vhd",
+    "InstLine" : 349,
+    "InstName" : "spectrum",
+    "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/spectrum48top.vhd",
+    "ModuleLine" : 45,
+    "ModuleName" : "spectrum48top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/spectrum48top.vhd",
+      "InstLine" : 134,
+      "InstName" : "rom",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/rom16k.vhd",
+      "ModuleLine" : 6,
+      "ModuleName" : "rom16k"
+     },
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/spectrum48top.vhd",
+      "InstLine" : 156,
+      "InstName" : "z80cpu",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80a.vhd",
+      "ModuleLine" : 76,
+      "ModuleName" : "T80a",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80a.vhd",
+        "InstLine" : 153,
+        "InstName" : "u0",
+        "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80.vhd",
+        "ModuleLine" : 88,
+        "ModuleName" : "T80",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80.vhd",
+          "InstLine" : 261,
+          "InstName" : "mcode",
+          "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80_MCode.vhd",
+          "ModuleLine" : 82,
+          "ModuleName" : "T80_MCode"
+         },
+         {
+          "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80.vhd",
+          "InstLine" : 328,
+          "InstName" : "alu",
+          "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80_ALU.vhd",
+          "ModuleLine" : 62,
+          "ModuleName" : "T80_ALU"
+         },
+         {
+          "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80.vhd",
+          "InstLine" : 845,
+          "InstName" : "Regs",
+          "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/T80_Reg.vhd",
+          "ModuleLine" : 56,
+          "ModuleName" : "T80_Reg"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/spectrum48top.vhd",
+      "InstLine" : 178,
+      "InstName" : "ps2kbd",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/zxps2kbd.vhd",
+      "ModuleLine" : 45,
+      "ModuleName" : "zxps2kbd",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/zxps2kbd.vhd",
+        "InstLine" : 236,
+        "InstName" : "ps2rd",
+        "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/ps2reader.vhd",
+        "ModuleLine" : 25,
+        "ModuleName" : "ps2reader"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/spectrum48top.vhd",
+      "InstLine" : 191,
+      "InstName" : "ula",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hdmi_ula.vhd",
+      "ModuleLine" : 45,
+      "ModuleName" : "hdmi_ula"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/toplevel.vhd",
+    "InstLine" : 392,
+    "InstName" : "hram8b",
+    "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hramctrl8bit.vhd",
+    "ModuleLine" : 45,
+    "ModuleName" : "hramctrl8bit",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hramctrl8bit.vhd",
+      "InstLine" : 112,
+      "InstName" : "hram",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hyperram.vhd",
+      "ModuleLine" : 21,
+      "ModuleName" : "hyperram",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hyperram.vhd",
+        "InstLine" : 82,
+        "InstName" : "i_hyperram_config",
+        "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hyperram_config.vhd",
+        "ModuleLine" : 12,
+        "ModuleName" : "hyperram_config"
+       },
+       {
+        "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hyperram.vhd",
+        "InstLine" : 114,
+        "InstName" : "i_hyperram_ctrl",
+        "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hyperram_ctrl.vhd",
+        "ModuleLine" : 14,
+        "ModuleName" : "hyperram_ctrl"
+       },
+       {
+        "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hyperram.vhd",
+        "InstLine" : 147,
+        "InstName" : "i_hyperram_io",
+        "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hyperram_io.vhd",
+        "ModuleLine" : 12,
+        "ModuleName" : "hyperram_io"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/toplevel.vhd",
+    "InstLine" : 418,
+    "InstName" : "cpu_m1_mpu",
+    "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/gowin_empu_m1/gowin_empu_m1.vhd",
+    "ModuleLine" : 19475,
+    "ModuleName" : "Gowin_EMPU_M1_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/gowin_empu_m1/gowin_empu_m1.vhd",
+      "InstLine" : 20718,
+      "InstName" : "M1_inst",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/gowin_empu_m1/gowin_empu_m1.vhd",
+      "ModuleLine" : 1,
+      "ModuleName" : "CortexM1IntegrationWrapper"
+     },
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/gowin_empu_m1/gowin_empu_m1.vhd",
+      "InstLine" : 20742,
+      "InstName" : "u_GowinCM1AhbExtWrapper",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/gowin_empu_m1/gowin_empu_m1.vhd",
+      "ModuleLine" : 1,
+      "ModuleName" : "GowinCM1AhbExtWrapper"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/toplevel.vhd",
+    "InstLine" : 535,
+    "InstName" : "hdmiout",
+    "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hdmi.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "hdmi",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hdmi.sv",
+      "InstLine" : 329,
+      "InstName" : "true_hdmi_output.packet_picker",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/packet_picker.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "packet_picker",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/packet_picker.sv",
+        "InstLine" : 51,
+        "InstName" : "audio_clock_regeneration_packet",
+        "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/audio_clock_regeneration_packet.sv",
+        "ModuleLine" : 5,
+        "ModuleName" : "audio_clock_regeneration_packet"
+       },
+       {
+        "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/packet_picker.sv",
+        "InstLine" : 131,
+        "InstName" : "audio_sample_packet",
+        "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/audio_sample_packet.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "audio_sample_packet"
+       },
+       {
+        "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/packet_picker.sv",
+        "InstLine" : 137,
+        "InstName" : "auxiliary_video_information_info_frame",
+        "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/auxiliary_video_information_info_frame.sv",
+        "ModuleLine" : 5,
+        "ModuleName" : "auxiliary_video_information_info_frame"
+       },
+       {
+        "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/packet_picker.sv",
+        "InstLine" : 140,
+        "InstName" : "source_product_description_info_frame",
+        "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/source_product_description_info_frame.sv",
+        "ModuleLine" : 5,
+        "ModuleName" : "source_product_description_info_frame"
+       },
+       {
+        "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/packet_picker.sv",
+        "InstLine" : 143,
+        "InstName" : "audio_info_frame",
+        "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/audio_info_frame.sv",
+        "ModuleLine" : 5,
+        "ModuleName" : "audio_info_frame"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hdmi.sv",
+      "InstLine" : 335,
+      "InstName" : "true_hdmi_output.packet_assembler",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/packet_assembler.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "packet_assembler"
+     },
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hdmi.sv",
+      "InstLine" : 387,
+      "InstName" : "tmds_gen[0].tmds_channel",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/tmds_channel.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "tmds_channel"
+     },
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hdmi.sv",
+      "InstLine" : 387,
+      "InstName" : "tmds_gen[1].tmds_channel",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/tmds_channel.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "tmds_channel"
+     },
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hdmi.sv",
+      "InstLine" : 387,
+      "InstName" : "tmds_gen[2].tmds_channel",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/tmds_channel.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "tmds_channel"
+     },
+     {
+      "InstFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/hdmi.sv",
+      "InstLine" : 391,
+      "InstName" : "serializer",
+      "ModuleFile" : "D:/work/gowinproject/tn9_zx/tn9k_zxsp48_v05_hdmi_aud/src/serializer.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "serializer"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,43 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/audio_clock_regeneration_packet.sv" type="file.verilog" enable="1"/>
+        <File path="src/audio_info_frame.sv" type="file.verilog" enable="1"/>
+        <File path="src/audio_sample_packet.sv" type="file.verilog" enable="1"/>
+        <File path="src/auxiliary_video_information_info_frame.sv" type="file.verilog" enable="1"/>
+        <File path="src/hdmi.sv" type="file.verilog" enable="1"/>
+        <File path="src/packet_assembler.sv" type="file.verilog" enable="1"/>
+        <File path="src/packet_picker.sv" type="file.verilog" enable="1"/>
+        <File path="src/serializer.sv" type="file.verilog" enable="1"/>
+        <File path="src/source_product_description_info_frame.sv" type="file.verilog" enable="1"/>
+        <File path="src/tmds_channel.sv" type="file.verilog" enable="1"/>
+        <File path="src/userflash_controller.v" type="file.verilog" enable="1"/>
+        <File path="src/T80.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80_ALU.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80_MCode.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80_Pack.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80_Reg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80a.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_clkdiv/gowin_clkdiv.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_empu_m1/gowin_empu_m1.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll135.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/hdmi_ula.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/hramctrl8bit.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/hyperram.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/hyperram_config.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/hyperram_ctrl.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/hyperram_io.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/ps2reader.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/rom16k.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/spectrum48top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/toplevel.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/zxps2kbd.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/top.cst" type="file.cst" enable="1"/>
+        <File path="src/tn9k_zxsp48_v03.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
