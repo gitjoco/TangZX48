@@ -1,9 +1,9 @@
-ZX Spectrum 48K implementation on baord Tang Nano 9K
+ZX Spectrum 48K implementation on Tang Nano 9K
 
 FPGA project contains the ZX spectrum implementation with PS/2 keyboard and HDMI video/audio output.
 MPU has an M1 cpu which handles the FATFS file system and basic DOS commands. 
 
-Check out the .CST file for the pinouts. Use <b>PS/2 kebvoard</b> that works with 3.3V
+Check out the .CST file for the pinouts. Use a PS/2 kebvoard which works with 3.3V
 
 <pre>IO_LOC "joy[4]" 57;
 IO_LOC "joy[3]" 56;
@@ -19,9 +19,13 @@ DOS commands, like:
 
 <pre>dir
 ver
-vol</pre>
+vol
+pwd
+cd
+inf
+</pre>
 
-Project can load .sna and .z80 files. Put your games to an SD card (formatted to FAT32) and place the files
+It can load .sna and .z80 files. Put your games to an SD card (formatted to FAT32) and place the files
 there. To load a game, type:
 <pre>
 CMD sna jetpac
