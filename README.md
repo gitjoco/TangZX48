@@ -1,4 +1,4 @@
-ZX Spectrum 48K implementation on Tang Nano 9K
+<b>ZX Spectrum 48K implementation on Tang Nano 9K</b>
 
 FPGA project contains the ZX spectrum implementation with PS/2 keyboard and HDMI video/audio output.
 MPU has an M1 cpu which handles the FATFS file system and basic DOS commands. 
@@ -31,6 +31,23 @@ there. To load a game, type:
 CMD sna jetpac
 CMD sna willy
 </pre>
+
+The Gowin G1NR-9C fpga has built in hyperram, that is used for the upper ram of the ZX Spectrum. <br />
+Hyperram driver original source:
+<a href="https://mjoergen.github.io/HyperRAM/">https://mjoergen.github.io/HyperRAM/</a> <br />
+<a href="https://github.com/MJoergen/HyperRAM/issues">https://github.com/MJoergen/HyperRAM/issues</a>
+<br />
+<br />
+HDMI source: By Sameer Puri <a href="https://github.com/sameer">https://github.com/sameer</a>
+<br />
+<br />
+Thanks for those great projects!
+
+The ULA version in this project is generating HDMI compatible signals, where the main clock frequency is
+27MHz, using the standard video mode 720x576p. 
+
+
+
 
 
 
